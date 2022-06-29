@@ -5,3 +5,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     console.log(e.target)
   })
 })
+
+const entryForm = document.querySelector('#entryForm');
+const entryResultsSection = document.querySelector('#entryResultsSection');
+const entryResultItem = document.querySelector('.entryResultItem')
