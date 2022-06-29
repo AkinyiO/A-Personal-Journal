@@ -200,7 +200,7 @@ input[class^='btn-']:hover {
 
 .sectionEntryResults {
   margin: 0 auto;
-  width: 79%;
+  width: 100%;
 }
 
 .entryResultRow {
