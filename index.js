@@ -69,7 +69,16 @@ const getEntryText = document.getElementsByClassName(`entry-text-box`)
     getEntryText[0].value = ``;
 
 
+function diaryData() {
+  fetch("http://localhost:3000/diaryField")
+  .then(res=> res.json())
+  .then(data=> console.log(data))
+}
+diaryData()
 
 
-
-
+entryForm.addEventListener("submit", ()=> {
+  let title; 
+   title.innerHTML = document.getElementById('entry-title').value
+   heading.append(title)
+})
