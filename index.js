@@ -59,10 +59,17 @@ const getEntryText = document.getElementsByClassName(`entry-text-box`)
       entryDate.textContent = `Date Added: ${day} ${n} ${year}`;
       entryDiv.appendChild(entryDate)
   }
-()
+
+    //adding Div element paragraph
+
+    const entryParagraph = document.createElement(`p`);
+    entryParagraph.className = `single-entry-text`;
+    entryParagraph.textContext = getEntryText[0].value;
+    entryDiv.appendChild(entryParagraph);
+    getEntryText[0].value = ``;
 
 
-//}
+}
 
 
 
