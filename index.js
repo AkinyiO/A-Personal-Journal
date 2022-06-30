@@ -57,8 +57,9 @@ const getEntryText = document.getElementsByClassName(`entry-text-box`)
 
   if ((getEntryTitle[0].value = getEntryTitle[0].value)){
       entryDate.textContent = `Date Added: ${day} ${n} ${year}`;
-      entryDiv.appendChild(entryDay)
+      entryDiv.appendChild(entryDate)
   }
+()
 
 
 //}
