@@ -215,3 +215,9 @@ input[class^='btn-']:hover {
   margin: 1em auto;
   padding: 1em 1em;
 }
+
+.heading-results {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: lightgoldenrodyellow;
+}
