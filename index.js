@@ -43,7 +43,7 @@ const getEntryText = document.getElementsByClassName(`entry-text-box`)
   //adding Div
   const entryDiv = document.createElement(`div`);
   entryDiv.className = `single-entry-div`;
-  entryResultRow.appendChild(appendDiv);
+  entryResultRow.appendChild(entryDiv);
 
   //adding div element h3
   const entryHeading = document.createElement(`h3`);
@@ -52,7 +52,14 @@ const getEntryText = document.getElementsByClassName(`entry-text-box`)
   entryDiv.appendChild(entryHeading);
 
   //adding div element date
-  
+  const entryDate = document.createElement(`p`);
+  entryDate.className = `single-entry-date`;
+
+  if ((getEntryTitle[0].value = getEntryTitle[0].value)){
+      entryDate.textContent = `Date Added: ${day} ${n} ${year}`;
+      entryDiv.appendChild(entryDay)
+  }
+
 
 //}
 
