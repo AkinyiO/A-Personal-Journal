@@ -38,7 +38,7 @@ const getEntryText = document.getElementsByClassName(`entry-text-box`)
   const heading = document.createElement('h2');
   heading.className = `heading-results`;
   heading.textContent = `Journal Entries`;
-  entryResultRow.insertAdjacentElement(`beforebegin`, heading)
+  entryResultRow.insertAdjacentElement(`beforebegin`, heading);
 
   //adding Div
   const entryDiv = document.createElement(`div`);
