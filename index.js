@@ -69,7 +69,7 @@ const getEntryText = document.getElementsByClassName(`entry-text-box`)
     getEntryText[0].value = ``;
 
 
-}
+
 
 
 
