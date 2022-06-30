@@ -1,10 +1,10 @@
-// document.addEventListener('DOMContentLoaded', ()=>{
-//   document.querySelector("#submitButton").addEventListener("submit",
-//   (e)=>{
-//     e.preventDefault(),
-//     console.log(e.target)
-//   })
-// })
+document.addEventListener('DOMContentLoaded', ()=>{
+  document.querySelector("#submitButton").addEventListener("submit",
+  (e)=>{
+    e.preventDefault(),
+    console.log(e.target)
+  })
+});
 
 const entryForm = document.querySelector(`#entryForm`);
 const entryResultsSection = document.querySelector(`#entryResultsSection`);
@@ -13,8 +13,8 @@ const entryResultRow = document.querySelector(`.entryResultRow`);
 const getEntryTitle = document.getElementsByClassName(`entry-text-title`);
 const getEntryText = document.getElementsByClassName(`entry-text-box`)
 
-function addEntryToDom(event) {
-  event.preventDefault();
+//function addEntryToDom(event) {
+  //event.preventDefault();
   const d = new Date();
   const month = new Array();
   month[0] = 'January';
@@ -35,6 +35,26 @@ function addEntryToDom(event) {
   const day = d.getDay();
   const year = d.getFullYear();
 
-}
+  const heading = document.createElement('h2');
+  heading.className = `heading-results`;
+  heading.textContent = `Journal Entries`;
+  entryResultRow.insertAdjacentElement(`beforebegin`, heading)
+
+  //adding Div
+  const entryDiv = document.createElement(`div`);
+  entryDiv.className = `single-entry-div`;
+  entryResultRow.appendChild(appendDiv);
+
+  //adding div element h3
+  const entryHeading = document.createElement(`h3`);
+  entryHeading.className = `single-entry-heading`;
+  entryHeading.textContent = getEntryTitle[0].value;
+  entryDiv.appendChild(entryHeading);
+
+  //adding div element date
+  
+
+//}
+
 
 
