@@ -3,9 +3,9 @@
 #### A simple functional online journal for documentation, 2022/06/30
 
 #### By Akinyi Odhiambo
-   contact info : 
-   email ; camillaodhiambo8@gmail.com
-   linkedIn ; https://www.linkedin.com/in/camilla-odhiambo-83402b171/
+  * contact info : 
+  * email ; camillaodhiambo8@gmail.com
+  * linkedIn ; https://www.linkedin.com/in/camilla-odhiambo-83402b171/
 
 
  ## Description
